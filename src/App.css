@@ -3,3 +3,7 @@ body {
     background-color: rgb(250, 246, 241);
     padding: 20px 60px;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
