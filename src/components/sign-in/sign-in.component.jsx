@@ -6,7 +6,7 @@ import FormInput from  '../form-input/form-input.component'
 
 import CustomButton from '../custom-button/custom-button.component'
 
-import {SignInWithGoogle, signInWithGoogle} from '../../firebase/firebase.utlis'
+import {SignInWithGoogle,signInWithGoogle} from '../../firebase/firebase.utlis'
 
 class SignIn extends React.Component{
     constructor(){
