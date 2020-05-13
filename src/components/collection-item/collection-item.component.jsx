@@ -1,7 +1,7 @@
-import React from 'react';
-import { connect } from 'react-redux';
+import React from 'react'
+import { connect } from 'react-redux'
 
-import { addItem } from '../../redux/cart/cart.actions';
+import { addItem } from '../../redux/cart/cart.actions'
 
 import {
   CollectionItemContainer,
@@ -10,7 +10,7 @@ import {
   BackgroundImage,
   NameContainer,
   PriceContainer
-} from './collection-item.styles';
+} from './collection-item.styles'
 
 export const CollectionItem = ({ item, addItem }) => {
   const { name, price, imageUrl } = item;
@@ -36,4 +36,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   null,
   mapDispatchToProps
-)(CollectionItem);
+)(CollectionItem)
